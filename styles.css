@@ -1,0 +1,68 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    /* Dark background for the navbar */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    color: #fff;
+    /* White text for the logo */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    /* Remove bullet points */
+    display: flex;
+    /* Display links in a row */
+}
+
+.nav-links li {
+    margin: 0 15px;
+    /* Spacing between links */
+}
+
+.nav-links a {
+    color: #fff;
+    /* White text for links */
+    text-decoration: none;
+    /* Remove underline */
+    transition: color 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+    /* Change color on hover */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
